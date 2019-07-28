@@ -1,0 +1,243 @@
+
+/*----------INDEX PAGE----------*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body, html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*----------HEADER----------*/
+
+#header {
+    background-color: rgb(12, 12, 12);
+    position: fixed;
+    top: 0;
+    height: 50px;
+    z-index: 1;
+    font-family: Lato;
+}
+
+.left {
+    text-align: left;
+    width: 50%;
+    left: 0%;
+}
+
+.right {
+    text-align: right;
+    width: 50%;
+    right: 0%;
+}
+
+#header li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header i {
+    margin: 5px 5px;
+}
+
+#header li:hover {
+    background-color: #474545;
+    height: 50px;
+}
+
+
+/*----------MAIN-INDEX OR HOME----------*/
+
+#home {
+    width: 100%;
+    height: 100%;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+    background-image: url(./laptop.jpeg );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  /*height: 550px;*/  
+    height: 92vh;
+    background-attachment: fixed;
+    
+}   
+
+.homepage {
+    padding-top: 10px;
+    margin-bottom: 0.5px;
+    border-radius: 60px;
+    height: 400px;
+    width: 300px;
+}
+
+.judul {
+    /* Text styles */
+    font-size:20px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family:'Saira Stencil One';
+    
+    /* Margins */
+    padding: 50px 100px;
+    background-color: rgba(125, 116, 255, 0.85);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*----------CV----------*/
+#cv {
+    text-align: center;
+    background: #353333;
+    padding: 14px;
+    width: 100%;
+}
+
+#cv a {
+    text-decoration: none;
+    color: #fff;
+    font-family: lato;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+/*----------Skill----------*/
+.column {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #474545;
+ }
+
+.logo a {
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    font-size: 100px;
+    
+}
+.logo a :hover{
+    background-color: #474545;
+}
+
+.skill {
+    padding: 0px 0px 30px 0px; 
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.skill a :hover {
+    background-color: #474545;
+}
+
+/*----------About----------*/
+.gambar-about {
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding: 40px 30px 0px 30px;
+    border-radius: 60px;
+}
+
+.column h1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    width: 60%;
+    padding: 80px 50px 10px 0px; 
+}
+
+.tinggi{
+    height: 400px;
+}
+
+.keterangan-about {
+    padding: 30px 50px 0px 0px; 
+    color: #fff;
+    float: left;
+    text-align: justify;
+    width: 60%;
+    line-height: 150%; 
+}
+
+
+/*----------MAIN-PORTOFOLIO----------*/
+
+.page-container {
+    height: 83vh;
+    background-color: #474545;
+}
+
+.portfolio {
+    width: 100%;
+    color: white;
+}
+.portfolio h1{
+    padding: 50px 50px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.protfolio-item {
+    float: left;
+    width: 25%;
+    height: 300px; 
+  }  
+.three-column img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+   transition: transform .2s;
+}
+.three-column img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+/*----------FOOTER----------*/
+
+#footer {
+    background-color: #474545;
+    width: 100%;
+    padding: 80px 10px;
+    bottom: 0%;
+}
+
+#footer p{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.created-by {
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+}
+
+
